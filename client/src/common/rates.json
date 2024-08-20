@@ -1,0 +1,14 @@
+{
+  "rooms": {
+    "suite": 550,
+    "bungalow": 400,
+    "vista": 300,
+    "familiar": 250,
+    "estandar": 150
+  },
+  "services": {
+    "Spa": 50,
+    "Gym": 10,
+    "Transportation": 30
+  }
+}

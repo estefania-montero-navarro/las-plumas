@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "baseUrl": "./", // Specify the root directory for resolving non-relative module names
+    "paths": {
+      "*": ["src/*"] // Map all module names to the 'src' directory
+    },
+    "moduleResolution": "node" // Use Node.js module resolution strategy
+  },
+  "include": ["./src/**/*.ts", "src/controllers/**/*",  "src/services/**/*"],
+  "exclude": ["node_modules"]
+}
